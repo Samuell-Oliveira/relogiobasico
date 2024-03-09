@@ -1,0 +1,64 @@
+body {   
+    font: normal 15pt Arial;
+    margin: 0;
+}
+
+#videoDia,
+#videoTarde,
+#videoNoite {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+    /*display: none; */ /* Removido para garantir que os vídeos sejam visíveis */
+}
+
+
+header {
+    font: normal 20px italic;
+    color: white;
+    text-align: center;
+}
+
+section {
+    background: radial-gradient(#fdfdfd49,rgba(255, 255, 255, 0.452));
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.384);
+    color: rgb(255, 255, 255);
+    font: normal 40px italic;
+}
+
+footer {
+    color: white;
+    text-align: center;
+    font-style: italic;
+}
+
+img {
+    border-radius: 100%;
+    width: 350px;
+    height: 350px;
+    margin-top: 30px;
+}
+
+div {
+    text-align: center;
+    padding: 5px;
+}
+
+#msg {
+    color: rgb(0, 0, 0);
+    box-shadow: 3px 3px 10px rgb(255, 255, 255);
+    width: 60%;
+    text-align: center;
+    border-radius: 10px;
+    height: auto;
+    margin-left: 100px;
+    font: normal 80px italic;
+}
