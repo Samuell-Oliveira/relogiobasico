@@ -1,6 +1,6 @@
 function carregar() {
     var msg = window.document.querySelector('div#msg') //os dois fazem a mesma função
-    var img = window.document.getElementById('imagem') // mesma função que o outro de cima
+    var img = window.document.getElementById('foto') // mesma função que o outro de cima
     var data = new Date()
     var hora = data.getHours()
     var minutos = data.getMinutes()
